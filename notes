@@ -1,0 +1,14 @@
+this project was for a small brand named jasmine agarbatti, that asked for a simple landing page with capability to be changed from backend.
+
+Built a backend using django and front end through template html and css
+
+pip install django 
+django-admin startproject 
+python manage.py runserver
+port 8000
+
+create an app and register it in the settings 
+create template folder inside the app itself to separate assets of different project from each other and
+one staticfiles folder to point to images videos JS files...it is mentioned as STATIC_URL = '/staticfiles/'
+For handling media files and css files..we create staticfiles folder and then we make images folder inside ...MEDIA_URLS is pointed to images folder....
+so path from image becomes {% static 'images/rajat.jpg'%}
